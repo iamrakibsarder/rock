@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+	background: #070100;
+	padding: 15px 0;
+	border-top: 4px solid #d70a03;
+	border-bottom: 4px solid #d70a03;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    width: 25%;
+}
+header .logo img{}
+header .nav{
+}
+header .nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+header .nav ul li{
+    list-style: none;
+}
+header .nav ul li a{
+    text-decoration: none;
+    padding: 0 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #555454;
+}
+header .nav ul li a:hover{
+	color: #fff;
+}
+header .nav ul li .active{
+	color: #fff !important;
+	background: black;
+	padding: 12px 25px;
+	box-shadow: 0px 1px 50px white;
+}
+
+header .nav ul li .search-box{
+    position: relative;
+}
+header .nav ul li .search-box form{}
+header .nav ul li .search-box form input{
+    padding: 12px 12px 12px 20px;
+    border-radius: 50px;
+    border: none;
+}
+header .nav ul li .search-box form input:focus{
+	outline: none;
+}
+header .nav ul li .search-box i{
+    position: absolute;
+    color: red;
+    top: 30%;
+    right: 10%;
+}
+
+
+
+.banner{
+	width: 100%;
+	height: 80vh;
+	background: url(../images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner .banner-body{
+	color: white;
+	text-align: center;
+}
+.banner .banner-body h1{
+    font-size: 80px;
+}
+.banner .banner-body .mid-title{
+	background: #f70d1ba1;
+	display: inline-block;
+	/* opacity: 0.6; */
+	padding: 0 20px;
+}
+.banner .banner-body .mid-title h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.banner .banner-body p{
+    padding: 0px 200px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.banner .banner-body a{
+    text-decoration: none;
+    color: #d70a03;
+    background: white;
+    padding: 20px 35px;
+    font-size: 18px;
+    border:1px solid #fff;
+}
+
+.banner .banner-body a:hover{
+	background: #d70a03;
+	color: white;
+	border:1px solid #d70a03;
+}
+
+
+/*Banner End*/
+
+
+
+/*Stars Start*/
+
+
+.stars{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stars .left-box{
+    width: 50%;
+}
+.stars .left-box img{width: 675px;}
+.stars .right-box{
+	background: #ff1d00;
+	padding: 40px 0;
+}
+.stars .right-box .right-body{}
+.stars .right-box .right-body .mic{
+    text-align: center;
+    margin-right: 50px;
+}
+.stars .right-box .right-body .mic img{
+    width: 150px;
+}
+.stars .right-box .right-body .text{
+	
+margin-left: -85px;
+}
+.stars .right-box .right-body .text h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+.stars .right-box .right-body .text p{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.stars .right-box .right-body .text a{
+	text-decoration: none;
+	color: #d70a03;
+	background: white;
+	padding: 15px 35px;
+	font-size: 18px;
+	border:1px solid #fff;
+}
+.stars .right-box .right-body .text a:hover{
+	background: #000;
+	border:1px solid #000;
+}
+
+
+
+/*Stars End*/
+
+
+.service{
+    padding: 40px 0;
+
+}
+.s-body{
+    display: flex;
+}
+.service .s-body .box{
+    width: 25%;
+    text-align: center;
+    padding: 0 15px;
+}
+.service .s-body .box i{
+    font-size: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #ff1d00;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+}
+.service .s-body .box h3{
+    padding: 15px 0;
+}
+.service .s-body .box p{}
+
+
+
+
+/*Letest News Section CSS*/
+
+.l-news{
+    padding: 40px 0;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.heading p{
+    padding: 0 265px;
+}
+.l-news .blog{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.l-news .blog .box{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 30%;
+}
+.l-news .blog .box .img{
+    width: 100%;
+    box-sizing: border-box;
+}
+.l-news .blog .box .img img{
+    width: 100%;
+    box-sizing: border-box;
+}
+.l-news .blog .box .text{
+    padding: 25px;
+}
+.l-news .blog .box .text h3{}
+.l-news .blog .box .text .comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+    padding: 15px 0;
+}
+.l-news .blog .box .text .comment p{}
+.l-news .blog .box .text p{
+}
+
+
+
+
+
+
+
+
+/*Letest News Section CSS*/
+
+
+
+/*Album Section CSS STart*/
+
+
+.album{
+	padding: 40px 0;
+}
+.album .galary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.album .galary .img{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.album .galary .img img{
+    width: 100%;
+}
+/*.album .galary .overlay{
+    position: absolute;
+    background: red;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.album .galary .overlay i{}*/
+
+
+
+
+
+
+/*Album Section CSS End*/
+
+
+
+.newsletter{
+	background: #ff1d00;
+	padding: 40px 0;
+}
+.newsletter .news-h{
+    padding-bottom: 10px;
+}
+.newsletter .news-h h3{
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+}
+.newsletter form{
+    display: flex;
+    align-items: center;
+}
+.newsletter form input{}
+.newsletter form input:focus{
+	outline: none;
+}
+.newsletter form .email{
+    width: 75%;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+}
+.newsletter form .send{
+    width: 25%;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 600;
+}
+.newsletter form .send:hover{}
+
+
+
+
+
+
+
+footer{
+    background: #0b0808;
+    color: white;
+    padding: 40px 0;
+}
+footer .footer-body{
+    display: flex;
+}
+footer .footer-body .left{
+    width: 25%;
+}
+footer .footer-body .left h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+footer .footer-body .left ul{}
+footer .footer-body .left ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+footer .footer-body .left ul li i{
+    font-size: 20px;
+    padding-right: 15px;
+}
+footer .footer-body .left ul.social {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+footer .footer-body .left ul.social li{}
+footer .footer-body .left ul.social li a{}
+footer .footer-body .left ul.social li a i{
+    padding: 0 !important;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+}
+footer .footer-body .left ul.social li a i:hover{}
+footer .footer-body .middle{
+    width: 50%;
+}
+footer .footer-body .middle h3{
+	font-size: 24px;
+    font-weight: 500;
+}
+footer .footer-body .middle form{
+    padding: 15px 0;
+}
+footer .footer-body .middle form input{
+    display: block;
+    width: 75%;
+    padding: 20px 25px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+footer .footer-body .middle form input:focus{
+	outline: none;
+}
+footer .footer-body .middle form .messeges{
+    padding: 50px 20px;
+}
+footer .footer-body .middle a{
+	text-decoration: none;
+	color: #d70a03;
+	background: white;
+	padding: 12px 45px;
+	font-size: 18px;
+	/*border:1px solid #fff;*/
+	border-radius: 10px;
+}
+footer .footer-body .middle a:hover{
+	background:red;
+	color: white;
+}
+footer .footer-body .right{
+    width: 25%;
+}
+footer .footer-body .right h3{
+	font-size: 24px;
+    font-weight: 500;
+}
+footer .footer-body .right .box{
+    width: 100%;
+    padding-top: 20px;
+}
+footer .footer-body .right .box img{
+    margin: 5px;
+}
+
+.rights{
+    padding: 25px 0;
+    text-align: center;
+}
+.rights p{
+    color: #023023;
+    letter-spacing: 2px;
+}
+.rights a{
+    color: #023023;
+    text-decoration: none;
+}
+.rights a:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
